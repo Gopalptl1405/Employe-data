@@ -1,0 +1,56 @@
+*{
+    margin: 10px;
+    padding: 0;
+    background-color: #1e1e1e;
+    color: #ffff;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid red; */
+}
+.input-container{
+    display: flex;
+    flex-direction: column;
+}
+input[type=text],input[type=number]{
+    border: 1px solid #FFFF;
+    height: 5vh;    
+    border-radius: 10px;
+    color: #FFFF;
+}
+.Add-btn{
+    background-color: #ffff;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.success{
+    color: green;
+    font-size: 18px;
+}
+.error{
+    color: red;
+    font-size: 18px;
+}
+.AddedEmployee-container{
+    display: flex;
+    flex-direction: column;
+}
+.updateOnUi{
+    display: flex;
+    border: 1px solid #ffff;
+    border-radius: 10px; 
+    /* border: 1px solid red; */
+}
+.addData{
+     display: flex; 
+}
+#delete-btn{
+    background-color: #ffff;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
