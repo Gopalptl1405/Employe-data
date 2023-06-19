@@ -19,7 +19,7 @@ input[type=text],input[type=number]{
     border-radius: 10px;
     color: #FFFF;
 }
-.Add-btn{
+button{
     background-color: #ffff;
     color: black;
     padding: 10px;
@@ -45,12 +45,10 @@ input[type=text],input[type=number]{
     /* border: 1px solid red; */
 }
 .addData{
-     display: flex; 
+     display: flex;
 }
-#delete-btn{
-    background-color: #ffff;
-    color: black;
-    padding: 10px;
-    border-radius: 10px;
-    cursor: pointer;
+
+.Edited-btn{
+    display: none;
 }
+
