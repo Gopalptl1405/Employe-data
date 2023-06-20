@@ -6,16 +6,14 @@ let employees = [
   //  {id:1,name:"john",profession:"admin",age:28}
 ];
 
-//function generator a unquice id on each employee.
-function generatorID() {
-  return employees.length + 1;
-}
+let id=0;
 
 //function create a obj and push to array
 function addedEmployee(name, profession, age) {
   // console.log(employe);
+  id = id +1;
   let employe = {
-    id: generatorID(),
+    id: id,
     name: name,
     profession: profession,
     age: age,
@@ -40,12 +38,7 @@ function displayemployeData() {
   );
   AddedEmployee_container.innerHTML = "";
   employees.sort((a, b) => a.id - b.id);
-  // console.log(employees);
-  // console.log(employees);
-  // if(check){
-  //     employees.pop();
-  // }
-
+  
   employees.forEach((employe) => {
     const updateOnui = document.createElement("div");
     const button1 = document.createElement("button");
